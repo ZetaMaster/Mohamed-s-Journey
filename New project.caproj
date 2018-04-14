@@ -118,17 +118,37 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="6" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="342533263345091" speed="5">
+                <animation framecount="8" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="342533263345091" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500183" original-source="C:\Users\user\Downloads\GAME\Sprites\Mohamed\Stop.png">
                         <collision-poly>
                             <point x="0.257813" y="0.145002" />
                             <point x="0.5" y="0" />
-                            <point x="0.662109" y="0.19004" />
-                            <point x="0.742839" y="0.499817" />
                             <point x="0.662109" y="0.80996" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.338542" y="0.809594" />
                             <point x="0.257813" y="0.499817" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
+                        <collision-poly>
+                            <point x="0.257813" y="0.145002" />
+                            <point x="0.5" y="0" />
+                            <point x="0.742839" y="0.499817" />
+                            <point x="0.257813" y="0.499817" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
+                        <collision-poly>
+                            <point x="0.298177" y="0.167704" />
+                            <point x="0.5" y="0" />
+                            <point x="0.782552" y="0.1223" />
+                            <point x="0.701823" y="0.499817" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
+                        <collision-poly>
+                            <point x="0.298177" y="0.167704" />
+                            <point x="0.5" y="0" />
+                            <point x="0.782552" y="0.1223" />
+                            <point x="0.701823" y="0.499817" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
@@ -137,58 +157,30 @@
                             <point x="0.5" y="0" />
                             <point x="0.662109" y="0.19004" />
                             <point x="0.742839" y="0.499817" />
-                            <point x="0.662109" y="0.80996" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.338542" y="0.809594" />
-                            <point x="0.257813" y="0.499817" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
                         <collision-poly>
                             <point x="0.257813" y="0.145002" />
-                            <point x="0.5" y="0" />
                             <point x="0.662109" y="0.19004" />
-                            <point x="0.742839" y="0.499817" />
                             <point x="0.662109" y="0.80996" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.338542" y="0.809594" />
                             <point x="0.257813" y="0.499817" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183" original-source="C:\Users\user\Downloads\GAME\Sprites\Mohamed\Run.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Mohamed\MohamedCorrer2.png">
                         <collision-poly>
-                            <point x="0.298177" y="0.167704" />
+                            <point x="0.20625" y="0.116016" />
                             <point x="0.5" y="0" />
-                            <point x="0.782552" y="0.1223" />
-                            <point x="0.701823" y="0.499817" />
-                            <point x="0.701823" y="0.832296" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.323568" y="0.818015" />
-                            <point x="0.378906" y="0.499817" />
+                            <point x="0.242361" y="0.863672" />
+                            <point x="0.286806" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.298177" y="0.167704" />
+                            <point x="0.20625" y="0.116016" />
                             <point x="0.5" y="0" />
-                            <point x="0.782552" y="0.1223" />
-                            <point x="0.701823" y="0.499817" />
-                            <point x="0.701823" y="0.832296" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.323568" y="0.818015" />
-                            <point x="0.378906" y="0.499817" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500183">
-                        <collision-poly>
-                            <point x="0.298177" y="0.167704" />
-                            <point x="0.5" y="0" />
-                            <point x="0.782552" y="0.1223" />
-                            <point x="0.701823" y="0.499817" />
-                            <point x="0.701823" y="0.832296" />
-                            <point x="0.5" y="0.636397" />
-                            <point x="0.323568" y="0.818015" />
-                            <point x="0.378906" y="0.499817" />
+                            <point x="0.610417" y="0.219141" />
+                            <point x="0.286806" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
