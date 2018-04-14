@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 3 - Events</name>
+    <events>
+        <include>Basic Movement</include>
+        <event-block sid="829758480242965">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="406441093818633" type="Mohamed">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="249858640738901" type="Sprite10">
+                    <param id="0" name="Layer">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="821204141447598" type="Sprite7" />
+            </actions>
+        </event-block>
+        <event-block sid="559262103482058">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="423346344858889" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="597866223340989" type="Sprite10" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

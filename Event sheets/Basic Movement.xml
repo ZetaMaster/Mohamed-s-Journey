@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Basic Movement</name>
+    <events>
+        <event-block sid="989830851603907">
+            <conditions>
+                <condition id="2" name="Key is down" sid="524617562798425" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="330511201701784" type="Mohamed">
+                    <param id="0" name="Distance">-3</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="786706950849448" type="Mohamed">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="351083830972922" type="Mohamed">
+                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="518988894371960">
+            <conditions>
+                <condition id="2" name="Key is down" sid="668450805868619" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="694093336739524" type="Mohamed">
+                    <param id="0" name="Distance">3</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="252450951059947" type="Mohamed">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="306455759574177" type="Mohamed">
+                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="934940071356497">
+            <conditions>
+                <condition id="3" name="On key released" sid="166885860708440" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="740888885145049" type="Mohamed">
+                    <param id="0" name="Animation">&quot;Stop&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="6" name="Stop" sid="253017173126315" type="Audio">
+                    <param id="0" name="Tag">&quot;BEACH&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="100653319311372">
+            <conditions>
+                <condition id="3" name="On key released" sid="205701411344986" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="847789511895277" type="Mohamed">
+                    <param id="0" name="Animation">&quot;Stop&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="6" name="Stop" sid="712782546502967" type="Audio">
+                    <param id="0" name="Tag">&quot;BEACH&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="669702748415444">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="535242423764058" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="505998659672876" type="Audio">
+                    <param id="0" name="Audio file">Walking on Beach Sand Sound Effect</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;BEACH&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="311300367358662">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="139588021180547" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="333468254027400" type="Audio">
+                    <param id="0" name="Audio file">Walking on Beach Sand Sound Effect</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;BEACH&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
