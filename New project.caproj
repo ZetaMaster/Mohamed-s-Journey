@@ -23,6 +23,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -300,9 +301,6 @@
                 <behavior-type name="Solid" sid="197244866175158">
                     <behavior id="solid" />
                 </behavior-type>
-                <behavior-type name="Physics" sid="391347810631475">
-                    <behavior id="Physics" />
-                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="229261510073120" speed="5">
@@ -363,6 +361,31 @@
                             <point x="0.853125" y="0.738889" />
                             <point x="0.5" y="0.962037" />
                             <point x="0.14375" y="0.744444" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="939443860102363">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="728227333692596">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="225880526423871" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\MISC\Mar.png">
+                        <collision-poly>
+                            <point x="0.284896" y="0.873148" />
+                            <point x="0.404167" y="0.90463" />
+                            <point x="0.564063" y="0.812037" />
+                            <point x="0.697656" y="0.881944" />
+                            <point x="0.834244" y="0.81875" />
+                            <point x="0.956706" y="0.850115" />
+                            <point x="1" y="0.825057" />
+                            <point x="1" y="1" />
+                            <point x="0.108333" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
