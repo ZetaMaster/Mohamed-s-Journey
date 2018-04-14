@@ -383,7 +383,6 @@
         <layout>Level 1 - Beginning.xml</layout>
         <layout>Level 2 - Family Flashback.xml</layout>
         <layout>Level 3 - More Walking....xml</layout>
-        <layout>SHITZU.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level 1 - Events.xml</event-sheet>
