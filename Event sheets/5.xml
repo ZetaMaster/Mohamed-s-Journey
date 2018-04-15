@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>5</name>
+    <events>
+        <event-block sid="492684683912001">
+            <conditions>
+                <condition id="0" name="On click" sid="593979600570953" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="662978774030126" type="Fala10" />
+            </actions>
+        </event-block>
+        <event-block sid="355139514904504">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="154954228571019" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="575173075812270" type="System">
+                    <param id="0" name="Layout">Main Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

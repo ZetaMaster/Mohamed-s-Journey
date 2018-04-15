@@ -449,6 +449,11 @@
         </object-type>
         <object-type name="Calhau" sid="497095679361968">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="761359071149220">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550059039910450" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\visco\Desktop\Mohamed-s-Journey-master\Mohamed-s-Journey\Sprites\MISC\CALHAU.png">
@@ -466,6 +471,321 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ZzBOX" sid="483188441728074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548470429224925" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="470238674068528">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="979667589545343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Mohamed\MohamedSentado.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.946484" />
+                            <point x="0.363889" y="0.357812" />
+                            <point x="0.419444" y="0.5" />
+                            <point x="0.983333" y="0.990625" />
+                            <point x="0.5" y="0.991797" />
+                            <point x="0.0972222" y="0.945313" />
+                            <point x="0.0166667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ly1" sid="906890250475167">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154050547761407" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\I love ameno.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.826042" y="0.309259" />
+                            <point x="0.900521" y="0.5" />
+                            <point x="0.807292" y="0.657407" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ly2" sid="879445926539703">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441603972647285" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\I love mohammed.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.799479" y="0.643519" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala3" sid="786927932294556">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="899812283045361">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495211770528482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\3.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala4" sid="267549852758721">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="755771090653810">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437456972201317" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\4.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala5" sid="256328340816467">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="263580994221376">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="323277720141137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\6.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOX5" sid="949563470216934">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="134416584281927" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala6" sid="168970506871511">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="501216323887308">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540657495604928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\7.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOX6" sid="687025004726198">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801805604397207" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala7" sid="597093753917898">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="514184159361119">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950643108095262" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\8.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Desperate" sid="976394409808594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374842918542240" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Mohamed\MohamedJoelhos.png">
+                        <collision-poly>
+                            <point x="0.327083" y="0.183984" />
+                            <point x="0.5" y="0.137109" />
+                            <point x="0.730556" y="0.151562" />
+                            <point x="0.811806" y="0.5" />
+                            <point x="0.730556" y="0.848437" />
+                            <point x="0.5" y="0.954687" />
+                            <point x="0.0854167" y="0.951953" />
+                            <point x="0.327083" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="998467015566539">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="275906291600781">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278717323772707" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Mohamed\MohamedJoelhosCry.psd.png">
+                        <collision-poly>
+                            <point x="0.327083" y="0.183984" />
+                            <point x="0.5" y="0.136719" />
+                            <point x="0.730556" y="0.151562" />
+                            <point x="0.811806" y="0.5" />
+                            <point x="0.730556" y="0.848437" />
+                            <point x="0.5" y="0.954687" />
+                            <point x="0.0854167" y="0.951953" />
+                            <point x="0.327083" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala8" sid="636131713426092">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="897435111691849">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527746450083079" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\9.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala9" sid="996951662137357">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="429448464421627">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428682929747060" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\10.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala10" sid="415384005950684">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="663495043865223">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467638397424919" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\11.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -473,6 +793,8 @@
         <layout>Level 1 - Beginning.xml</layout>
         <layout>Level 2 - Family Flashback.xml</layout>
         <layout>Level 3 - More Walking....xml</layout>
+        <layout>4.xml</layout>
+        <layout>5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level 1 - Events.xml</event-sheet>
@@ -480,6 +802,8 @@
         <event-sheet>Level 3 - Events.xml</event-sheet>
         <event-sheet>Main Menu - Events.xml</event-sheet>
         <event-sheet>Mohamed&apos;s Basic Movement.xml</event-sheet>
+        <event-sheet>4.xml</event-sheet>
+        <event-sheet>5.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />

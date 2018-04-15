@@ -19,12 +19,94 @@
         </event-block>
         <event-block sid="559262103482058">
             <conditions>
-                <condition id="0" name="On key pressed" sid="423346344858889" type="Keyboard">
-                    <param id="0" name="Key">32</param>
+                <condition id="0" name="On click" sid="423346344858889" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="597866223340989" type="Sprite10" />
+            </actions>
+        </event-block>
+        <event-block sid="503087257471145">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="988144012629251" type="Mohamed">
+                    <param id="0" name="Object">BOX2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="324287809498618" type="Fala3">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="915495533287323">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="935355357618558" type="Mohamed">
+                    <param id="0" name="Object">BOX3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="393681139435576" type="Fala3" />
+                <action id="-26" name="Move to layer" sid="422293436699655" type="Fala4">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895809262778315">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="544840258969005" type="Mohamed">
+                    <param id="0" name="Object">BOX4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="672349855923663" type="Fala4" />
+                <action id="-26" name="Move to layer" sid="780609881306513" type="Fala5">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="967904014157752">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="551178040321606" type="Mohamed">
+                    <param id="0" name="Object">BOX5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="153131172772062" type="Fala5" />
+                <action id="-26" name="Move to layer" sid="730270799111210" type="Fala6">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="307824577133058">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="678283401990966" type="Mohamed">
+                    <param id="0" name="Object">BOX6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="451893140959321" type="Fala6" />
+                <action id="-26" name="Move to layer" sid="966970091452968" type="Fala7">
+                    <param id="0" name="Layer">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="557625191627177" type="Sprite11" />
+                <action id="-9" name="Destroy" sid="444245987813914" type="Mohamed" />
+                <action id="-26" name="Move to layer" sid="409879081867843" type="Desperate">
+                    <param id="0" name="Layer">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="328528305950564">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="764351705279815" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="367688680994897" type="System">
+                    <param id="0" name="Layout">4</param>
+                </action>
             </actions>
         </event-block>
     </events>
