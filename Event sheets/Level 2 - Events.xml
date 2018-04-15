@@ -16,5 +16,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="480868378552501">
+            <conditions>
+                <condition id="0" name="On click" sid="819683227738063" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="381537597664442" type="Laughs">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
