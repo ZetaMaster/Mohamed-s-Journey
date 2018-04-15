@@ -391,6 +391,81 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Fala1" sid="428121869955539">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="560057183477409">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="430892866174037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\visco\Desktop\Mohamed-s-Journey-master\Mohamed-s-Journey\Sprites\Falas\1.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fala2" sid="396544530399619">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="128082803729092">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451683131839807" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\visco\Desktop\Mohamed-s-Journey-master\Mohamed-s-Journey\Sprites\Falas\2.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BOX4" sid="162953596124012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653003156958667" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Calhau" sid="497095679361968">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550059039910450" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\visco\Desktop\Mohamed-s-Journey-master\Mohamed-s-Journey\Sprites\MISC\CALHAU.png">
+                        <collision-poly>
+                            <point x="0.339844" y="0.604167" />
+                            <point x="0.5" y="0.186806" />
+                            <point x="0.659961" y="0" />
+                            <point x="0.819922" y="0.320139" />
+                            <point x="0.980078" y="0.964583" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0199219" y="0.964583" />
+                            <point x="0.380078" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

@@ -82,7 +82,11 @@
                     <param id="0" name="Object">Mohamed</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-26" name="Move to layer" sid="256694753785191" type="Fala1">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="446547937729767">
             <conditions>
@@ -90,7 +94,12 @@
                     <param id="0" name="Object">Mohamed</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-26" name="Move to layer" sid="896865220466370" type="Fala2">
+                    <param id="0" name="Layer">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="421939975216944" type="Fala1" />
+            </actions>
         </event-block>
         <event-block sid="495384748459951">
             <conditions>
@@ -103,6 +112,7 @@
                     <param id="0" name="Layout">Level 2 - Family Flashback</param>
                 </action>
                 <action id="33" name="Stop all" sid="182468819555708" type="Audio" />
+                <action id="-9" name="Destroy" sid="439680597357624" type="Fala2" />
             </actions>
         </event-block>
         <comment>SOUND</comment>
