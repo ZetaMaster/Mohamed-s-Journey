@@ -786,6 +786,71 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Laughs" sid="261699214684865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="295808367923972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\RISOS.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.801042" y="0.353704" />
+                            <point x="0.834375" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="QUARTO" sid="276233300800139">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="168873029365619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\MISC\Quarto.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="598179093787484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762468643024143" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\I love ameno.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.826042" y="0.309259" />
+                            <point x="0.900521" y="0.5" />
+                            <point x="0.807292" y="0.657407" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="600926761125238">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716410657266496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\I love mohammed.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.799479" y="0.643519" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -795,6 +860,7 @@
         <layout>Level 3 - More Walking....xml</layout>
         <layout>4.xml</layout>
         <layout>5.xml</layout>
+        <layout>4.5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level 1 - Events.xml</event-sheet>
@@ -804,6 +870,7 @@
         <event-sheet>Mohamed&apos;s Basic Movement.xml</event-sheet>
         <event-sheet>4.xml</event-sheet>
         <event-sheet>5.xml</event-sheet>
+        <event-sheet>45.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />

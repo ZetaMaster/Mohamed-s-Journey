@@ -4,22 +4,6 @@
     <name>Level 2 - Events</name>
     <events>
         <comment>Text Box</comment>
-        <event-block sid="286447623654005">
-            <conditions>
-                <condition id="0" name="On click" sid="765617976571461" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-26" name="Move to layer" sid="705632765926734" type="Ly1">
-                    <param id="0" name="Layer">0</param>
-                </action>
-                <action id="-26" name="Move to layer" sid="920981708693824" type="Ly2">
-                    <param id="0" name="Layer">3</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="274977991687860">
             <conditions>
                 <condition id="0" name="On key pressed" sid="239963726411884" type="Keyboard">
