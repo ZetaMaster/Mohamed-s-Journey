@@ -154,6 +154,9 @@
                 <action id="-26" name="Move to layer" sid="218247352212908" type="Sprite12">
                     <param id="0" name="Layer">1</param>
                 </action>
+                <action id="-26" name="Move to layer" sid="989620482389624" type="FamMissers">
+                    <param id="0" name="Layer">3</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="764695632719937">

@@ -856,6 +856,59 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="FamMissers" sid="124547417356727">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="851375438984016">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388589476752385" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\GAME\Mohamed-s-Journey\Sprites\Falas\FamMissers.png">
+                        <collision-poly>
+                            <point x="0.191146" y="0.339815" />
+                            <point x="0.5" y="0.196296" />
+                            <point x="0.808333" y="0.340741" />
+                            <point x="0.876562" y="0.5" />
+                            <point x="0.798437" y="0.641667" />
+                            <point x="0.5" y="0.752778" />
+                            <point x="0.189583" y="0.662963" />
+                            <point x="0.108333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="698186031006901">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="482390840874231">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920213617097585" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\The End.png">
+                        <collision-poly>
+                            <point x="0.695833" y="0.540741" />
+                            <point x="0.695833" y="0.5" />
+                            <point x="0.707292" y="0.47963" />
+                            <point x="0.305729" y="0.456481" />
+                            <point x="0.307813" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="251307088278377">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933433503448342" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\Warning no fim.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -865,6 +918,7 @@
         <layout>Level 3 - More Walking....xml</layout>
         <layout>4.xml</layout>
         <layout>5.xml</layout>
+        <layout>6.xml</layout>
         <layout>4.5.xml</layout>
     </layout-folder>
     <event-folder>
@@ -876,6 +930,7 @@
         <event-sheet>4.xml</event-sheet>
         <event-sheet>5.xml</event-sheet>
         <event-sheet>45.xml</event-sheet>
+        <event-sheet>6.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="1" />
